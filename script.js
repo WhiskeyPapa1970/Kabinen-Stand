@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const saveBtn = document.getElementById("saveBtn");
 
     const bestaende = [];
-loadBestaende();
+  
     let aktuellerStandort = "";
 
     const kabinentypen = [
@@ -322,5 +322,5 @@ alert("Datensatz gespeichert");
         resetMap();
 
     });
-
+ loadBestaende();
 });
