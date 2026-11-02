@@ -209,7 +209,7 @@ saveBtn.addEventListener("click", async () => {
 console.log("SENDE AN SUPABASE", datensatz);
 const { data, error } =
     await supabaseClient
-        .from("bestand")
+        .from("KabinenBestand")
         .upsert(
             [datensatz],
             {
