@@ -55,6 +55,9 @@ console.log("BESTAENDE:", bestaende);
     aktualisiereAnzeige();
 
 }
+const bestaende = [];
+let aktuellerStandort = "";
+
 document.addEventListener("DOMContentLoaded", () => {
 
     const mapObject = document.getElementById("austriaMap");
@@ -63,11 +66,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const anzeigeKW = document.getElementById("anzeigeKW");
     const typSelect = document.getElementById("typ");
     const saveBtn = document.getElementById("saveBtn");
-
-    const bestaende = [];
-  
-    let aktuellerStandort = "";
-
     const kabinentypen = [
         "Toi Water",
         "Toi Water up",
