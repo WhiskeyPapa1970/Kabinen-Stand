@@ -39,7 +39,7 @@ console.log("ROH:", data);
 
     bestaende.length = 0;
 console.log("BESTAENDE:", bestaende);
-
+window.bestaendeBackup = bestaende;
     data.forEach(e => {
 
         bestaende.push({
