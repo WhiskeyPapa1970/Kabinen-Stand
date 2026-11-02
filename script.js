@@ -45,8 +45,8 @@ window.bestaendeBackup = bestaende;
         bestaende.push({
             standort: e.standort,
             kw: String(e.kw),
-            typ: e.kabinentyp,
-            anzahl: e.bestand
+            kabinentyp: e.kabinentyp,
+            bestand: e.bestand
         });
 console.log("BESTAENDE:", bestaende);
 
