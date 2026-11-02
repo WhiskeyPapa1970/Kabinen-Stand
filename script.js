@@ -152,18 +152,20 @@ document.addEventListener("DOMContentLoaded", () => {
             standort[typ] = 0;
         });
 
-        bestaende.forEach(e => {
+bestaende.forEach(e => {
 
-            gesamt[e.typ] += e.anzahl;
+    gesamt[e.kabinentyp] += e.bestand;
 
-            if (
-                e.standort === aktuellerStandort &&
-                e.kw == anzeigeKW.value
-            ) {
-                standort[e.typ] += e.anzahl;
-            }
+    if (
+        e.standort === aktuellerStandort &&
+        e.kw == anzeigeKW.value
+    ) {
 
-        });
+        standort[e.kabinentyp] += e.bestand;
+
+    }
+
+});
 
         kabinentypen.forEach(typ => {
 
