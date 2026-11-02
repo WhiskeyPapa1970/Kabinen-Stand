@@ -15,7 +15,7 @@ const supabaseClient =
 
     const { data, error } =
         await supabaseClient
-            .from("bestand")
+            .from("KabinenBestand")
             .select("*");
 
     console.log("DATA:", data);
@@ -27,7 +27,7 @@ async function loadBestaende() {
 
     const { data, error } =
         await supabaseClient
-            .from("bestand")
+            .from("KabinenBestand")
             .select("*");
 console.log("ROH:", data);
     if (error) {
