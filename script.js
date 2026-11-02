@@ -52,7 +52,7 @@ console.log("BESTAENDE:", bestaende);
 
     });
 
-    aktualisiereAnzeige();
+
 
 }
 const bestaende = [];
