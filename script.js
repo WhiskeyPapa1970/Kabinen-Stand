@@ -1,7 +1,7 @@
 alert("script geladen");
 console.log("script gestartet");
 const supabaseUrl =
-    "https://wosxlwsnkssergfvbzla.supabase.co";
+    "https://jpmfhyectqzaxupbgche.supabase.co";
 
 const supabaseKey =
     "sb_publishable_9vZDzjnLAJJbir0wVO_nhw_7rqtLDXg";
