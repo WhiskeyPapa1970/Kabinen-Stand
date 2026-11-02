@@ -322,5 +322,9 @@ alert("Datensatz gespeichert");
         resetMap();
 
     });
- loadBestaende();
+
+    loadBestaende().then(() => {
+        aktualisiereAnzeige();
+    });
+
 });
