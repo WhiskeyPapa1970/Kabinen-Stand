@@ -156,7 +156,7 @@ bestaende.forEach(e => {
 
     if (
         e.standort === aktuellerStandort &&
-        e.kw == anzeigeKW.value
+       Number( e.kw) == Number(anzeigeKW.value)
     ) {
 
         standort[e.kabinentyp] += e.bestand;
