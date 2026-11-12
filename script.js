@@ -151,8 +151,8 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
 bestaende.forEach(e => {
-
-    gesamt[e.kabinentyp] += e.bestand;
+if (Number(e.kw)===Number (anzeigeKW.value)){
+    gesamt[e.kabinentyp] += e.bestand;}
 
     if (
         e.standort === aktuellerStandort &&
