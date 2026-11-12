@@ -1,4 +1,4 @@
-alert("script geladen");
+
 console.log("script gestartet");
 const supabaseUrl =
     "https://wosxlwsnkssergfvbzla.supabase.co";
