@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Toi Hygiene Plus",
         "Dawi Baustelle",
         "Dawi Event",
+        "Mobiclo Standard",
         "Mobiclo up",
         "Mobiclo Green",
         "Dufti",
