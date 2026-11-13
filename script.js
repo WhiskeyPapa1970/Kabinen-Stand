@@ -76,6 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Toi Cap",
         "Toi Nature",
         "Toi Mini",
+         "Toi Kid´s",
         "Toi Rolluri",
         "Toi Quattro",
         "Boels",
